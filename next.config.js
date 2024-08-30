@@ -1,12 +1,9 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-
 const nextConfig = {
   env: {
     RESEND_API_KEY: process.env.RESEND_API_KEY,
   },
-  basePath: isProd ? '/website-portfolio-2' : '',
-  assetPrefix: isProd ? '/website-portfolio-2/' : '',
+  // Remove basePath and assetPrefix if deploying to root of main branch
 }
 
 module.exports = nextConfig;
