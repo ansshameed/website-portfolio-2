@@ -10,7 +10,7 @@
     "lint": "next lint",
     "create-cname": "echo 'www.ansshameed.com' > out/CNAME",
     "predeploy": "npm run build && npm run export && npm run create-cname",
-    "deploy": "gh-pages -d out"
+    "deploy": "cp -r out/* . && git add . && git commit -m 'Deploy' && git push origin main"  
   },
   "dependencies": {
     "@react-email/components": "^0.0.22",
