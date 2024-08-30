@@ -22,7 +22,7 @@ export default function About() {
         <SectionHeading>About me</SectionHeading>
         <p className="mb-5">
                 My name is{" "}
-                <span className="  font-semibold">Moiz Saleem</span>,
+                <span className="  font-semibold">Anss Hameed</span>,
                 I am a enthusiastic and dedicated student pursuing a Bachelor&apos;s degree in{" "}
                 <span className="  font-semibold">
                   Computer Science
