@@ -63,7 +63,7 @@ export default function Intro() {
             
             <a
           className='group bg-white bg-opacity-90 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black dark:bg-gray-950 dark:bg-opacity-75'
-          href="../public/my-cv.pdf"
+          href="/my-cv.pdf"
           download
         >
           Download CV
