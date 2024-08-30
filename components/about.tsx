@@ -23,7 +23,7 @@ export default function About() {
         <p className="mb-5">
                 My name is{" "}
                 <span className="  font-semibold">Anss Hameed</span>,
-                I am a enthusiastic and dedicated student pursuing a Bachelor&apos;s degree in{" "}
+                I am an enthusiastic and dedicated student pursuing a Bachelor&apos;s degree in{" "}
                 <span className="  font-semibold">
                   Computer Science
                 </span>{" "}
