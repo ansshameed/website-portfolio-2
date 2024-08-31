@@ -63,7 +63,7 @@ export const experiencesData = [
     description:
     `• Assumed the roles of software developer, client liaison and project manager for an AI-driven social media content generator
     • Utilised Stable Diffusion for images, GPT-3.5 for captions, and Google's API for trend tracking, 
-    • Employed Vue.js front-end and back-end API integration for Twitter (X) and LinkedIn`,
+    • Employed Vue.js front-end and back-end API integration for Twitter (X) and LinkedIn.`,
     icon: React.createElement(FaReact),
     date: "Sept 2023 - May 2024",
   },
