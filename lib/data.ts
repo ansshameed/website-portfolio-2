@@ -112,6 +112,7 @@ export const experiencesData = [
     subtitle: "BSc Computer Science",
     description:
     `Modules Including:
+    Machine Learning
     Imperative and Functional Programming
     Object-Oriented Programming  
     Concurrent & Distributed Programming
