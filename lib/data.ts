@@ -14,6 +14,7 @@ import scotlandImg from "@/public/scotlandyard_ai.png";
 import appImg from "@/public/dropkick_app.png";
 import heImg from "@/public/he_project.png";
 import mandelbrotImg from "@/public/mandelbrot.png"; 
+import golImg from "@/public/gol.png"; 
 import socialImg from "@/public/socialmedia.png"; 
 
 
@@ -123,7 +124,7 @@ export const experiencesData = [
 
     Roles: 
     • STEM Outreach Ambassador: Teaching Python and GCSE Maths to disadvantaged students at local secondary school.
-    • TA: Teaching Discrete Mathematics (Linear Algebra, Probability & Statistics) and mentoring a group of 6 for 'Software Engineering Project' for first and second year UG's.
+    • TA: Teaching Discrete Mathematics (Linear Algebra, Probability & Statistics) and mentoring two groups of 6 for 'Software Engineering Project' for first and second year UG's. Projects include: AR Student Chatbot (IBM) and AI/ML Microservives Prediction (DigitalU3 LTD).
     •	‘Bristol Scholar’ & Access to Bristol: Selected by sixth form as a high-performer in academia which granted me access to exclusive academic opportunities. 
 
     Predicted: 1st Class`,
@@ -134,6 +135,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "AI Social Media",
+    description:
+    "As the client liaison, project manager, and software developer, I developed an AI-driven social media content generator using Stable Diffusion for images, GPT-3.5 for captions, and Google's API for trend tracking, with a Vue.js front-end and back-end API integration for Twitter (X) and LinkedIn, delivered to SpaceNXT Labs.",
+    tags: ["Stable Diffusion", "Social Media", "Java"],
+    imageUrl: socialImg,
+  },
+  {
     title: "Scotland Yard AI",
     description:
     "AI agent designed to play the Scotland Yard boardgame, implementing Dijkstra’s algorithm and a Mini-Max game tree with alpha-beta pruning to optimize the AI agents winning performance based on a custom scoring function.",
@@ -141,11 +149,11 @@ export const projectsData = [
     imageUrl: scotlandImg,
   },
   {
-    title: "AI Social Media",
+    title: "Parallelised Game of Life Simulation (AWS Distributed)",
     description:
-    "As the client liaison, project manager, and software developer, I developed an AI-driven social media content generator using Stable Diffusion for images, GPT-3.5 for captions, and Google's API for trend tracking, with a Vue.js front-end and back-end API integration for Twitter (X) and LinkedIn, delivered to SpaceNXT Labs.",
-    tags: ["Stable Diffusion", "Social Media", "Java"],
-    imageUrl: socialImg,
+    "Utilised Go distributed processing on AWS EC2 to improve efficiency by benchmarking algorithmic performance and identifying bottlenecks using CPU profiling. Optimised network communication via publish/subscribe model ensuring fault tolerance and scalability.",
+    tags: ["Go", "AWS"],
+    imageUrl: golImg,
   },
   {
     title: "Mandelbrot Set Fractal Visualisation Tool",
