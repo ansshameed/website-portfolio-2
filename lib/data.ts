@@ -135,6 +135,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Cointegration-Driven Pairs Trading with Technical Indicators",
+    description:
+    "Used statistical cointergation tests to identify valid, correlated stock pairs and used the pair to implement the Pairs Trading Strategy with various technical indicators (RSI, Bollinger Bands) with dynamic risk controls. Sharpe Ratio: 1.06, Total Returns: 115% (4-year period). ",
+    tags: ["Python", "NumPy", "Pandas"],
+    imageUrl: socialImg,
+  },
+  {
     title: "Stochastic Options Pricing Engine",
     description:
     "Real-time interactive UI to compare options pricing between Black-Scholes and Monte Carlo Simulations. Simulates asset price paths using Geometric Brownian Motion across 50_ scenarios and provides dynamic adjustment to options pricing parameters such as volatility, risk-free rate etc.",
