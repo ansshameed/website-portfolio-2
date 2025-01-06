@@ -32,10 +32,10 @@ export default function About() {
                   {" "}
                   University of Bristol
                 </span>{" "}
-                with a strong passion in quantitative finance. 
+                with a strong passion in Quantitative Finance and financial markets. 
               </p>
         <p className="mb-5">
-        My academic and professional experiences have provided me with a robust foundation in full-stack development, technology consultancy, and sales. I am particularly passionate about applying my technical skills to solve complex challenges in dynamic commercial environments. With a strong background in both hands-on development and strategic technology implementation, I am eager to contribute to innovative projects and drive impactful solutions in the industry.
+        My academic and professional experiences have provided me with a robust foundation in full-stack development, technology consultancy, and sales. I am particularly passionate about applying my technical skills to solve complex challenges in dynamic commercial environments. Check out my Gitub to see my Quantitative Finance projects so far!
         </p>
         <p >
         Please contact me below if you have any queries or find out more about me on my LinkedIn!
