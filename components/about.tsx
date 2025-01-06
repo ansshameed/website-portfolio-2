@@ -32,7 +32,7 @@ export default function About() {
                   {" "}
                   University of Bristol
                 </span>{" "}
-                with aspirations to become a software developer and thrive in the technology industry. 
+                with a strong passion in quantitative finance. 
               </p>
         <p className="mb-5">
         My academic and professional experiences have provided me with a robust foundation in full-stack development, technology consultancy, and sales. I am particularly passionate about applying my technical skills to solve complex challenges in dynamic commercial environments. With a strong background in both hands-on development and strategic technology implementation, I am eager to contribute to innovative projects and drive impactful solutions in the industry.
