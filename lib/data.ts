@@ -49,7 +49,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Bank of America",
-    subtitle: "Software Developer Intern",
+    subtitle: "Software Developer Intern; Equities Cash Trading (OMS)",
     description:
     `• Automated Load Testing: Utilised Python and Bash to automate manual load testing for the order management system, reducing the testing time from 24 hours to 30 minutes daily, with global implementation across the bank.
     • FIX Replay Project: Enhanced the FIX Replay testing software by adding an auto-acknowledgment feature, streamlining the QA process for identifying discrepancies in FIX messages between production and QA environments.
@@ -135,6 +135,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Stochastic Options Pricing Engine",
+    description:
+    "Real-time interactive UI to compare options pricing between Black-Scholes and Monte Carlo Simulations. Simulates asset price paths using Geometric Brownian Motion across 50_ scenarios and provides dynamic adjustment to options pricing parameters such as volatility, risk-free rate etc.",
+    tags: ["Python", "NumPy", "Pandas"],
+    imageUrl: socialImg,
+  },
+  {
     title: "AI Social Media",
     description:
     "As the client liaison, project manager, and software developer, I developed an AI-driven social media content generator using Stable Diffusion for images, GPT-3.5 for captions, and Google's API for trend tracking, with a Vue.js front-end and back-end API integration for Twitter (X) and LinkedIn, delivered to SpaceNXT Labs.",
@@ -165,8 +172,9 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "Java",
   "Python",
+  "Java",
+  "C++",
   "C",
   "Haskell",
   "R",
@@ -186,5 +194,7 @@ export const skillsData = [
   "SQL",
   "Bash",
   "Algorithms",
-
+  "Pandas", 
+  "NumPy", 
+  "QuantConnect"
 ] as const;
