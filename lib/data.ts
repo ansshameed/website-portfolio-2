@@ -154,7 +154,7 @@ export const projectsData = [
     title: "AI Social Media",
     description:
     "As the client liaison, project manager, and software developer, I developed an AI-driven social media content generator using Stable Diffusion for images, GPT-3.5 for captions, and Google's API for trend tracking, with a Vue.js front-end and back-end API integration for Twitter (X) and LinkedIn, delivered to SpaceNXT Labs.",
-    tags: ["Stable Diffusion", "Social Media", "Java"],
+    tags: ["Java", "JavaScript", "Python", "Stable Diffusion"],
     imageUrl: socialImg,
   },
   {
