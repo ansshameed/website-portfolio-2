@@ -10,6 +10,8 @@ import { FaCar } from "react-icons/fa";
 
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import PTSImg from "@/public/PTS.png";
+import BSMCImg from "@/public/BSMC.png";
 import scotlandImg from "@/public/scotlandyard_ai.png";
 import appImg from "@/public/dropkick_app.png";
 import heImg from "@/public/he_project.png";
@@ -125,7 +127,7 @@ export const experiencesData = [
     Roles: 
     • STEM Outreach Ambassador: Teaching Python and GCSE Maths to disadvantaged students at local secondary school.
     • TA: Teaching Discrete Mathematics (Linear Algebra, Probability & Statistics) and mentoring two groups of 6 for 'Software Engineering Project' for first and second year UG's. Projects include: AR Student Chatbot (IBM) and AI/ML Microservives Prediction (DigitalU3 LTD).
-    •	‘Bristol Scholar’ & Access to Bristol: Selected by sixth form as a high-performer in academia which granted me access to exclusive academic opportunities. 
+    •	'Bristol Scholar' & Access to Bristol: Selected by sixth form as a high-performer in academia which granted me access to exclusive academic opportunities. 
 
     Predicted: 1st Class`,
     icon: React.createElement(LuGraduationCap),
@@ -139,14 +141,14 @@ export const projectsData = [
     description:
     "Used statistical cointergation tests to identify valid, correlated stock pairs and used the pair to implement the Pairs Trading Strategy with various technical indicators (RSI, Bollinger Bands) with dynamic risk controls. Sharpe Ratio: 1.06, Total Returns: 115% (4-year period). ",
     tags: ["Python", "NumPy", "Pandas"],
-    imageUrl: socialImg,
+    imageUrl: PTSImg,
   },
   {
     title: "Stochastic Options Pricing Engine",
     description:
     "Real-time interactive UI to compare options pricing between Black-Scholes and Monte Carlo Simulations. Simulates asset price paths using Geometric Brownian Motion across 50_ scenarios and provides dynamic adjustment to options pricing parameters such as volatility, risk-free rate etc.",
     tags: ["Python", "NumPy", "Pandas"],
-    imageUrl: socialImg,
+    imageUrl: BSMCImg,
   },
   {
     title: "AI Social Media",
